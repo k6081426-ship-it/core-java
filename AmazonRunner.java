@@ -1,14 +1,39 @@
 class AmazonRunner{
 
       public static void main(String []args){
+	  Amazon a1=new Amazon();
 	  
-	       System.out.println("-----First Time method call-----");
-	       String pavana =Amazon.createAccount("pavana Kr","pavana@gmil.com","pavana_786",9865433175979l);
-	       System.out.println(pavana);
+	   boolean login=a1.login("keerthi","Keerthi@123");
+	   System.out.println(login);
+	   
+	   String result=a1.login(9763290086653l,898987);
+	   System.out.println(result);
+	   
+	   String msg=a1.search("KTM");
+	   System.out.println(msg);
+	    
+       String message=a1.search("KTM",12000.8);
+	   System.out.println(message);
+	   
+	   String messages=a1.search("KTM","Black",35);
+	   System.out.println(messages);
+	   
+	   String results=a1.search("KTM",13.8f);
+	   System.out.println(results);
+	   
+	   String result2=a1.search("KTM",5);
+	   System.out.println(result2);
+	   
+	   
+	  }
+	   
+	   
+	   
+	   
+	   
+	   
+	   
 	  
-	       System.out.println("-----Second Time method call-----");
-	       String radha =Amazon.createAccount("radha pr","radha@723","radha_198",9823537452536l);
-	       System.out.println(radha);
-	    }
+	  
+	  
 }
-	  
