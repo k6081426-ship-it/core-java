@@ -1,0 +1,36 @@
+01.what is java?
+     * java is a high level object oriented programming language.
+	 * java is platform independent
+	 
+02.Explian java execution?	 
+       java execution means we write a code and it will be save and then cmd and compile the error and it's execute.
+	   
+03.what is datatype?
+     datatype is a type of data u can used to store variables and values.
+	 
+     Explain types of datatype?
+     
+	 types of datatype are:
+	 *primitive data type:primitive datatype include as int,float,char,double,byte,long,boolean,short
+	 *non primitive data type:non primitive data type include as string,array,object
+
+04.what is variable expalin types of variable?
+      variable is a name given to the memory location and used store values to the variable.
+	  4 types of variable are:
+	  *local variable:local varaible is a variable that are declared inside the method and constructor.
+	  *static variable:static variable is a varaible that are declared inside the class outside the method using static keyword.
+	  *instance variable:instance variable is a variable that are declared inside the class outside the method.
+	  *parameter
+	  
+05.What is array?
+     array is a multiple values are store in a single.	  
+	 
+06.what is method?explain types of method.
+        method is a block of a code its perform specific task.
+		
+		explain type of method
+		*userdefine
+		*builtin
+		
+07.what is constructor?
+        constructor is a type of method
